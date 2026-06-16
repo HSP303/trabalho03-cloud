@@ -1,0 +1,16 @@
+services:
+  linux:
+    build: .
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/app
+      - apache_html:/var/www/html
+      - videomonitoramento_data:/app_data
+    stdin_open: true
+    tty: true
+
+volumes:
+  apache_html:
+  videomonitoramento_data:

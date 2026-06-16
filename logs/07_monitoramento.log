@@ -1,0 +1,12 @@
+[2026-06-15 03:47:31] [OK] CPU dentro do limite: 2%
+[2026-06-15 03:47:31] [OK] Memória dentro do limite: 31%
+[2026-06-15 03:47:31] [OK] Disco dentro do limite: 60%
+[2026-06-15 03:47:31] [OK] Apache em execução.
+[2026-06-15 16:01:15] [OK] CPU dentro do limite: 3%
+[2026-06-15 16:01:15] [ALERTA] Uso de memória acima de 80%: 87%
+[2026-06-15 16:01:15] [OK] Disco dentro do limite: 60%
+[2026-06-15 16:01:15] [ALERTA] Apache não está em execução.
+[2026-06-15 16:32:50] [OK] CPU dentro do limite: 3%
+[2026-06-15 16:32:50] [ALERTA] Uso de memória acima de 80%: 92%
+[2026-06-15 16:32:50] [OK] Disco dentro do limite: 60%
+[2026-06-15 16:32:50] [OK] Apache em execução.

@@ -1,0 +1,3 @@
+CAM01 - Entrada principal - ativa
+CAM02 - Recepção - ativa
+CAM03 - Estoque de gravações - em manutenção

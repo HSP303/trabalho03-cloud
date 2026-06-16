@@ -1,0 +1,10 @@
+[2026-06-15 03:45:17] Limpando destino do deploy: /var/www/html
+[2026-06-15 03:45:17] Copiando arquivos de /app/source para /var/www/html
+[2026-06-15 03:45:17] Deploy concluído com sucesso. index.html publicado.
+httpd (pid 3777) already running
+[2026-06-15 03:45:17] Comando de start/graceful do Apache executado.
+[2026-06-15 16:32:43] Limpando destino do deploy: /var/www/html
+[2026-06-15 16:32:43] Copiando arquivos de /app/source para /var/www/html
+[2026-06-15 16:32:43] Deploy concluído com sucesso. index.html publicado.
+httpd (pid 3774) already running
+[2026-06-15 16:32:43] Comando de start/graceful do Apache executado.

@@ -1,0 +1,88 @@
+============================================================
+Trabalho 03 - Linux, Shell Script e Cloud Computing
+Aluno: Pedro Henrique Scheidt
+Instituição: Unidavi
+Tema: Sistema para Videomonitoramento
+Data/Hora: 2026-06-15 15:41:33
+============================================================
+
+1. Espaço em disco
+Filesystem                      Size  Used Avail Use% Mounted on
+overlay                         9.1G  7.5G  1.2G  88% /
+tmpfs                            64M     0   64M   0% /dev
+shm                              64M     0   64M   0% /dev/shm
+/dev/mapper/debianhsp--vg-home  433G  243G  168G  60% /app
+/dev/mapper/debianhsp--vg-var   9.1G  7.5G  1.2G  88% /app_data
+tmpfs                           7.7G     0  7.7G   0% /proc/acpi
+tmpfs                           7.7G     0  7.7G   0% /proc/asound
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/virtual/powercap
+tmpfs                           7.7G     0  7.7G   0% /sys/firmware
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu0/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu1/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu2/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu3/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu4/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu5/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu6/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu7/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu8/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu9/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu10/thermal_throttle
+tmpfs                           7.7G     0  7.7G   0% /sys/devices/system/cpu/cpu11/thermal_throttle
+
+2. Uso dos diretórios do projeto
+4.0K	/app/videomonitoramento/backups
+4.0K	/app/videomonitoramento/gravacoes
+4.0K	/app/videomonitoramento/logs
+4.0K	/app/videomonitoramento/relatorios
+8.0K	/app/videomonitoramento/alertas
+8.0K	/app/videomonitoramento/cameras
+8.0K	/app/videomonitoramento/configuracoes
+8.0K	/app/videomonitoramento/dados
+8.0K	/app/videomonitoramento/publicacao
+60K	/app/videomonitoramento
+
+3. Status do Apache
+Apache parado ou não instalado
+
+4. Últimos backups
+total 4.0K
+-rw-r--r-- 1 root root 770 Jun 15 04:10 backup_videomonitoramento_2026-06-15_04-10-41.tar.gz
+
+5. Últimos logs
+total 152K
+-rw-r--r-- 1 root root 7.2K Jun 15 03:44 01_update.log
+-rw-r--r-- 1 root root 114K Jun 15 03:44 02_apache.log
+-rw-r--r-- 1 root root  193 Jun 15 03:45 03_estrutura.log
+-rw-r--r-- 1 root root  315 Jun 15 03:45 05_deploy.log
+-rw-r--r-- 1 root root   49 Jun 15 03:45 06_processos.log
+-rw-r--r-- 1 root root  214 Jun 15 03:47 07_monitoramento.log
+-rw-r--r-- 1 root root  187 Jun 15 03:47 08_usuarios_permissoes.log
+-rw-r--r-- 1 root root  504 Jun 15 04:10 04_backup.log
+-rw-r--r-- 1 root root 2.8K Jun 15 15:41 relatorio_execucao.txt
+
+6. Arquivos publicados no Apache
+/var/www/html/assets/style.css
+/var/www/html/index.html
+/var/www/html/sobre.html
+
+7. Usuários, grupos e permissões principais
+Grupo videomonitoramento_ops não encontrado.
+Usuário camera_user não encontrado.
+drwxr-xr-x 11 root root 4096 Jun 15 03:45 /app/videomonitoramento
+drwxr-x---  2  995 1001 4096 Jun 15 03:45 /app/videomonitoramento/alertas
+drwxr-x---  2  995 1001 4096 Jun 15 03:45 /app/videomonitoramento/backups
+drwxr-xr-x  2 root root 4096 Jun 15 03:45 /app/videomonitoramento/cameras
+drwxr-xr-x  2 root root 4096 Jun 15 03:45 /app/videomonitoramento/configuracoes
+drwxr-x---  2  995 1001 4096 Jun 15 03:45 /app/videomonitoramento/dados
+drwxr-x---  2  995 1001 4096 Jun 15 03:45 /app/videomonitoramento/gravacoes
+drwxr-x---  2 root 1001 4096 Jun 15 03:45 /app/videomonitoramento/logs
+drwxr-xr-x  2 root 1001 4096 Jun 15 03:45 /app/videomonitoramento/publicacao
+drwxr-xr-x  2 root root 4096 Jun 15 03:45 /app/videomonitoramento/relatorios
+
+8. Processos relacionados ao Apache
+Nenhum processo Apache encontrado.
+
+============================================================
+Fim do relatório operacional
+============================================================

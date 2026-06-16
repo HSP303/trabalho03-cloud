@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudVision Monitoramento</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <strong>CloudVision</strong>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+        <section>
+            <p class="tag">Sistema para Videomonitoramento em Cloud</p>
+            <h1>Painel operacional de câmeras, alertas e gravações</h1>
+            <p>
+                Ambiente estático publicado via Apache para simular a interface pública de uma
+                solução de videomonitoramento baseada em infraestrutura Linux containerizada.
+            </p>
+        </section>
+    </header>
+
+    <main>
+        <section class="cards">
+            <article>
+                <span class="status ok"></span>
+                <h2>CAM01 - Entrada</h2>
+                <p>Status: online. Monitoramento contínuo da entrada principal.</p>
+            </article>
+            <article>
+                <span class="status ok"></span>
+                <h2>CAM02 - Recepção</h2>
+                <p>Status: online. Área administrativa monitorada em tempo real.</p>
+            </article>
+            <article>
+                <span class="status warn"></span>
+                <h2>CAM03 - Estoque</h2>
+                <p>Status: manutenção. Necessita validação técnica no ambiente.</p>
+            </article>
+        </section>
+
+        <section class="info">
+            <h2>Rotinas automatizadas</h2>
+            <ul>
+                <li>Atualização do sistema Linux via Shell Script.</li>
+                <li>Instalação e validação do Apache com pacote complementar ffmpeg.</li>
+                <li>Backup das configurações, dados, alertas e gravações simuladas.</li>
+                <li>Monitoramento de CPU, memória, disco e status do Apache.</li>
+                <li>Controle de usuários, grupos e permissões seguras.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        Trabalho 03 - Linux, Shell Script e Cloud Computing | Tema: Videomonitoramento
+    </footer>
+</body>
+</html>

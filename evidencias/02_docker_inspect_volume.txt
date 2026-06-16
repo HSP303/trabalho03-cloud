@@ -1,0 +1,276 @@
+[
+    {
+        "Id": "ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6",
+        "Created": "2026-06-15T15:40:46.636482707Z",
+        "Path": "bash",
+        "Args": [
+            "-c",
+            "tail -f /dev/null"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 326843,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-06-15T15:40:47.149234803Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:4c92eab3a74703832ed219a81bf62fbe575a6dccc4f1f4e72a88e1a598d4da15",
+        "ResolvConfPath": "/var/lib/docker/containers/ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6/hostname",
+        "HostsPath": "/var/lib/docker/containers/ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6/hosts",
+        "LogPath": "/var/lib/docker/containers/ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6/ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6-json.log",
+        "Name": "/trabalho03-linux",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/hsp303/projects/trabalho03-cloud-shell:/app:rw",
+                "trabalho03-cloud-shell_apache_html:/var/www/html:rw",
+                "trabalho03-cloud-shell_videomonitoramento_data:/app_data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "trabalho03-cloud-shell_default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle",
+                "/sys/devices/system/cpu/cpu4/thermal_throttle",
+                "/sys/devices/system/cpu/cpu5/thermal_throttle",
+                "/sys/devices/system/cpu/cpu6/thermal_throttle",
+                "/sys/devices/system/cpu/cpu7/thermal_throttle",
+                "/sys/devices/system/cpu/cpu8/thermal_throttle",
+                "/sys/devices/system/cpu/cpu9/thermal_throttle",
+                "/sys/devices/system/cpu/cpu10/thermal_throttle",
+                "/sys/devices/system/cpu/cpu11/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "ab3406aac111494f3c63113db218cc0c75c778cab47719659e29665a134c21e6",
+                "LowerDir": "/var/lib/docker/overlay2/b70f504668cd74737cc46fb72e29e268c513b2407cc578a61df42fa609cf6442-init/diff:/var/lib/docker/overlay2/izhiv4ts5vwz1n3pudnqfd2mz/diff:/var/lib/docker/overlay2/pzespbb1tanw3b3mp6lg37c7i/diff:/var/lib/docker/overlay2/r6r9udsk9pp2xtbdt9ild616s/diff:/var/lib/docker/overlay2/zmpq7ylnf1a81kf7bbdnutb4h/diff:/var/lib/docker/overlay2/ch8vvw1o1ue0urbuch8q721bp/diff:/var/lib/docker/overlay2/v1dfem7xtkad5n689euqhtype/diff:/var/lib/docker/overlay2/ec7eb9bbc25f463a27ce34d510a80d56735433b16937c85a13482c9ac07e09a4/diff",
+                "MergedDir": "/var/lib/docker/overlay2/b70f504668cd74737cc46fb72e29e268c513b2407cc578a61df42fa609cf6442/merged",
+                "UpperDir": "/var/lib/docker/overlay2/b70f504668cd74737cc46fb72e29e268c513b2407cc578a61df42fa609cf6442/diff",
+                "WorkDir": "/var/lib/docker/overlay2/b70f504668cd74737cc46fb72e29e268c513b2407cc578a61df42fa609cf6442/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/hsp303/projects/trabalho03-cloud-shell",
+                "Destination": "/app",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "trabalho03-cloud-shell_apache_html",
+                "Source": "/var/lib/docker/volumes/trabalho03-cloud-shell_apache_html/_data",
+                "Destination": "/var/www/html",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "trabalho03-cloud-shell_videomonitoramento_data",
+                "Source": "/var/lib/docker/volumes/trabalho03-cloud-shell_videomonitoramento_data/_data",
+                "Destination": "/app_data",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "ab3406aac111",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive"
+            ],
+            "Cmd": [
+                "bash",
+                "-c",
+                "tail -f /dev/null"
+            ],
+            "Image": "trabalho03-cloud-shell-linux",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "ab4f39396a629b39daef76a24851197d1e52dde0ef70abb16eaafa98ab681f87",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:4c92eab3a74703832ed219a81bf62fbe575a6dccc4f1f4e72a88e1a598d4da15",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "trabalho03-cloud-shell",
+                "com.docker.compose.project.config_files": "/home/hsp303/projects/trabalho03-cloud-shell/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/hsp303/projects/trabalho03-cloud-shell",
+                "com.docker.compose.replace": "trabalho03-linux",
+                "com.docker.compose.service": "linux",
+                "com.docker.compose.version": "5.1.3",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "d392a936e692d6a2eb6bba83b222b7d63670d97d35cdadfdfacad81d04c350d7",
+            "SandboxKey": "/var/run/docker/netns/d392a936e692",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "Networks": {
+                "trabalho03-cloud-shell_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "trabalho03-linux",
+                        "linux"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "30ef3074a34840fd871f57f88f758c305be0f0c74407ce3ae422332de6a71002",
+                    "EndpointID": "13bc77d6a685edc3ddac9c0ecb086f37f7611743183bbbca1b04945afee9291e",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.2",
+                    "MacAddress": "f6:bb:1d:6c:78:e9",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "trabalho03-linux",
+                        "linux",
+                        "ab3406aac111"
+                    ]
+                }
+            }
+        }
+    }
+]
