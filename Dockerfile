@@ -30,4 +30,4 @@ RUN chmod +x /app/scripts/*.sh || true \
 
 EXPOSE 80
 
-CMD ["bash", "-c", "tail -f /dev/null"]
+CMD ["apachectl", "-D", "FOREGROUND"]
